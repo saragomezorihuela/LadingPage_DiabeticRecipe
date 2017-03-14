@@ -1,0 +1,20 @@
+/* Stuck menu styles
+========================================================*/
+.isStuck {
+  z-index: 99;
+  -webkit-box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
+  padding: 2px 0;
+  border-top: 5px solid #3e3e3e;
+  background: #fff;
+  background: rgba(255, 255, 255, 0.8);
+  margin: 0;
+}
+.isStuck h1.navbar-brand_ img {
+  width: 70%;
+}
+@media only screen and (max-width: 979px) {
+  .isStuck {
+    display: none !important;
+  }
+}
